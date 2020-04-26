@@ -2,7 +2,9 @@
     "name": "@pencil.js/accessibility",
     "version": "0.1.0",
     "description": "Accessibility package for Pencil.js",
-    "main": "index.js",
+    "main": "src/index.js",
+    "unpkg": "dist/accessibility.min.js",
+    "jsdelivr": "dist/accessibility.min.js",
     "scripts": {
         "lint": "eslint **/*.js",
         "test": "ava",
@@ -30,7 +32,7 @@
         "pencil.js",
         "a11y"
     ],
-    "author": "Guillaume Martigny <guillaume.martigny@gmail.com> (https://www.guillaume-martigny.fr)",
+    "author": "GMartigny <guillaume.martigny@gmail.com> (https://www.guillaume-martigny.fr)",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/pencil-js/accessibility/issues"
